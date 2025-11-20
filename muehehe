@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First GitHub Website</title>
+    <title>Madness: Project Nexus Classic</title>
+    <!-- Include the Ruffle emulator -->
+    <script src="ruffle.js"></script>
+    <style>
+        body { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #000; }
+    </style>
 </head>
 <body>
-    <h1>Welcome! This is my website hosted on GitHub.</h1>
-    <p>I hope you are having a great day!</p>
+    <!-- Embed the Flash game using the Ruffle custom tag -->
+    <embed src="madness_nexus_classic.swf" width="800" height="600">
 </body>
 </html>
+
